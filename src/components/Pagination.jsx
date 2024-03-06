@@ -4,7 +4,7 @@ const Pagination = ({ handleNextPage, handlePrevPage, currentPage, nextPage, pre
   return (
     <div className="flex justify-center items-center mt-4">
       {prevPage && (
-        <button onClick={handlePrevPage} className="text-slate-300 hover:underline focus:outline-none text-xl">
+        <button onClick={handlePrevPage} className="text-slate-300 hover:underline focus:outline-none text-base">
           Previous Page
         </button>
       )}
@@ -12,7 +12,7 @@ const Pagination = ({ handleNextPage, handlePrevPage, currentPage, nextPage, pre
         <span className="text-sm font-semibold mr-2 text-white">Page {currentPage}</span>
       </div>
       {nextPage && (
-        <button onClick={handleNextPage} className="text-slate-300 hover:underline focus:outline-none text-xl">
+        <button onClick={handleNextPage} className="text-slate-300 hover:underline focus:outline-none text-base ">
           Next Page
         </button>
       )}
