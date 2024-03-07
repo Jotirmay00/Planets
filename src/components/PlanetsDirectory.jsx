@@ -58,7 +58,7 @@ const PlanetsDirectory = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       {/* Page title */}
-      <h1 className="text-4xl font-bold mb-4 text-center text-white bg-black rounded-full">Planets Directory</h1>
+      <h1 className="text-4xl font-bold mb-4 pb-4 text-center text-white bg-black rounded-full">Planets Directory</h1>
       
       {/* Loading spinner */}
       <div className="relative">
